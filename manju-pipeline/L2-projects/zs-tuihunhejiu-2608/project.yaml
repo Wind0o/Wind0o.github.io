@@ -1,0 +1,22 @@
+# generated_by: e1-topic@1.0.0 | model: cursor-grok-4.6 | upstream_hash: n/a
+project_slug: zs-tuihunhejiu-2608
+title: 退婚当天，女战神带铁骑来喝喜酒
+genre_pack: zhanshen
+style_pack: guoman-houtu
+template_versions:
+  e1: 1.0.0
+  e2: 1.0.0
+  e3: 1.0.0
+  e4: 1.0.0
+  e5: 1.0.0
+params:
+  total_episodes: 60
+  golden_episodes: 3
+  word_budget_per_ep: 280
+  shot_budget_per_ep: 22
+  target_duration_s: 75
+hot_rank_ref:
+  source: 红果热播榜
+  date: 2026-07-28
+  note: 热门赛道取「战神+逆袭打脸」，避开近90天饱和公式（萌宝团宠主卖、罪妻开荒养战神、重生装富二代、穿书种田）
+status: draft-novel-plus-golden-3
