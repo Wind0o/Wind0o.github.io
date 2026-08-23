@@ -20,7 +20,7 @@
 
   <section class="card">
     <h2>概览</h2>
-    <p>入梦是一款本机优先的相簿视频播放应用。它读取你通过 Apple 照片权限授权、且位于用户相簿中的视频，用于生成沉浸式播放流。</p>
+    <p>入梦是一款本机优先的相簿视频播放应用。它读取你通过 Apple 照片权限授权、且位于你可访问的普通相簿中的视频，用于生成沉浸式播放流。普通相簿可能包括共享或同步相簿，但不包括“最近项目”“视频”“隐藏”等系统智能相簿。</p>
     <p>入梦不要求注册账号，不接入广告 SDK 或分析 SDK，也不会把你的照片、视频或相簿内容上传到开发者服务器。</p>
   </section>
 
@@ -28,8 +28,8 @@
   <p>入梦不从 App 中收集个人数据，不运营用于接收相册内容的服务器，也不出售或用于跨 App 跟踪你的信息。</p>
 
   <h2>照片访问与系统操作</h2>
-  <p>入梦使用 Apple PhotoKit 读取你授权范围内、位于用户相簿中的视频。双击收藏时，App 会请求修改当前视频的系统“个人收藏”状态；点击删除时，App 会请求把当前视频移入系统“最近删除”，且 iOS 会再次显示确认。你可以随时在系统设置中限制或撤销照片权限。</p>
-  <p>有限照片访问模式下，入梦只能处理你已授权、并能通过用户相簿读取到的视频。入梦不会读取系统“隐藏”相簿。</p>
+  <p>入梦使用 Apple PhotoKit 读取你授权范围内、位于你可访问的普通相簿中的视频；普通相簿可能包括共享或同步相簿。双击收藏时，App 会请求修改当前视频的系统“个人收藏”状态；点击删除时，App 会请求把当前视频移入系统“最近删除”，且 iOS 会再次显示确认。你可以随时在系统设置中限制或撤销照片权限。</p>
+  <p>有限照片访问模式下，入梦只能处理你已授权、并能通过普通相簿读取到的视频。入梦不扫描“最近项目”“视频”“隐藏”等系统智能相簿。</p>
 
   <h2>设备本地存储</h2>
   <p>为了维持使用体验，入梦会在 App 容器内保存播放设置、相簿索引与 PhotoKit 本机标识、每日免费片单和查看进度、已播记录，以及用于故障排查的本机播放诊断信息。这些数据不会发送到开发者服务器。删除 App 通常会同时删除其 App 容器内的数据；系统照片图库中的原视频不因此被删除。</p>
@@ -53,15 +53,15 @@
   <p class="muted">Last updated: August 23, 2026</p>
 
   <h2>Overview</h2>
-  <p>RuMeng is a local-first album video player. It reads videos that you authorize through Apple Photos and that are available through your user-created albums, then presents them as an immersive playback feed.</p>
+  <p>RuMeng is a local-first album video player. It reads videos that you authorize through Apple Photos and that are available through ordinary albums accessible to you, then presents them as an immersive playback feed. Ordinary albums may include shared or synced albums, but exclude system smart albums such as Recents, Videos, and Hidden.</p>
   <p>RuMeng does not require an account, include advertising or analytics SDKs, or upload your photos, videos, or album contents to developer-operated servers.</p>
 
   <h2>Data We Do Not Collect</h2>
   <p>RuMeng does not collect personal data from the app, operate a server that receives your photo-library content, sell your information, or use it for cross-app tracking.</p>
 
   <h2>Photos Access and System Actions</h2>
-  <p>RuMeng uses Apple PhotoKit to read authorized videos available through user-created albums. When you double-tap, the app requests a change to the current video's system Favorite status. When you choose delete, the app requests that the current video be moved to Recently Deleted, and iOS presents a confirmation. You may limit or revoke Photos access in Settings at any time.</p>
-  <p>With limited Photos access, RuMeng can process only authorized videos that are discoverable through user-created albums. RuMeng does not read the system Hidden album.</p>
+  <p>RuMeng uses Apple PhotoKit to read authorized videos available through ordinary albums accessible to you, which may include shared or synced albums. When you double-tap, the app requests a change to the current video's system Favorite status. When you choose delete, the app requests that the current video be moved to Recently Deleted, and iOS presents a confirmation. You may limit or revoke Photos access in Settings at any time.</p>
+  <p>With limited Photos access, RuMeng can process only authorized videos that are discoverable through ordinary albums. RuMeng does not scan system smart albums such as Recents, Videos, or Hidden.</p>
 
   <h2>On-Device Storage</h2>
   <p>RuMeng stores playback preferences, an album index and local PhotoKit identifiers, the daily free selection and progress, watched history, and local playback diagnostics inside the app container. This information is not sent to developer-operated servers. Deleting the app normally removes its container data; it does not by itself delete videos from the system photo library.</p>
