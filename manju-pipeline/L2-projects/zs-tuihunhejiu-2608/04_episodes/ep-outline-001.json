@@ -1,0 +1,19 @@
+{
+  "generated_by": "e4-episodes@1.0.0 | model: cursor-grok-4.6 | upstream: 03_outline/master-outline.md",
+  "ep_id": "001",
+  "goal": "30秒内建立核心冲突：当众退婚 vs 女帅铁骑砸场",
+  "beats": [
+    {"beat": 1, "summary": "喜堂，太子举退婚书当众辱沈昭宁", "conflict_type": "当众羞辱", "emotion_value": 4},
+    {"beat": 2, "summary": "太夫人按她跪，昭雪假好心留她喝喜酒", "conflict_type": "亲情踩踏", "emotion_value": 5},
+    {"beat": 3, "summary": "她弹兵符，铁骑踏碎石阶", "conflict_type": "正面对抗", "emotion_value": 8},
+    {"beat": 4, "summary": "北狄主帅兵符扔上喜案：贺礼", "conflict_type": "身份碾压", "emotion_value": 9}
+  ],
+  "ending_hook": {
+    "type": "悬念",
+    "content": "太子冷笑女流也敢称帅，下令叉出去；门外第二拨铁骑马蹄如雷",
+    "forbidden_repeat_window_ok": true
+  },
+  "bridge_to_next": "兵符是真是假，下一息就要用军报砸脸",
+  "golden_scene_refs": ["gs-001"],
+  "foreshadow_ops": [{"id": "fs-01", "op": "plant", "note": "昭雪笑太稳，袖中按玉"}]
+}
