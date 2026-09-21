@@ -1,0 +1,13 @@
+{
+  "ep_id": "003",
+  "goal": "质检第二杯酒，留下绿火证据；卡在哑巴哥哥开口",
+  "beats": [
+    {"beat": 1, "summary": "丫鬟送安神酒，顾晚宁换成醋，盆里留下杏仁", "conflict_type": "反转", "emotion_value": 5},
+    {"beat": 2, "summary": "侯夫人要毁证，顾衡端盆，燕迟只说验", "conflict_type": "正面对抗", "emotion_value": 7},
+    {"beat": 3, "summary": "六人绕路砸门，顾衡挡棍，开口帮结案", "conflict_type": "身份揭露", "emotion_value": 9}
+  ],
+  "ending_hook": {"type": "身份揭露", "content": "养了二十年的哑巴第一句话是工单", "forbidden_repeat_window_ok": true},
+  "bridge_to_next": "北境马嘶，隐藏身份30%；女主发现工具人罢工",
+  "golden_scene_refs": ["gs-yaba"],
+  "foreshadow_ops": [{"id": "fs-beiling", "op": "plant"}]
+}
