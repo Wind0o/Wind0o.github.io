@@ -1,0 +1,139 @@
+{
+  "generated_by": "e2-bible@1.0.0 | model: cursor-grok-4.6 | upstream: source/novel.md",
+  "characters": [
+    {
+      "id": "shen-zhaoning",
+      "name": "沈昭宁",
+      "role": "女主/镇北女帅",
+      "visual": {
+        "gender": "女",
+        "age_look": "约24",
+        "hair": "墨黑长发高束，几缕被甲风吹散",
+        "face": "冷白，左眉尾一道新刀疤，眼神刀准",
+        "costume": "黑铁甲，红绳勒腕，腰悬黑铁兵符",
+        "anchor_words": "黑甲女帅, 眉尾刀疤, 拇指弹兵符, 竖屏特写"
+      },
+      "verbal_tic": "本帅的刀，不认亲。",
+      "signature_move": "拇指弹黑铁兵符",
+      "contrast_moe": "喜宴只啃军饼，不碰酒菜",
+      "motivation": "守城、护子、把退婚的场子在喜堂里赢回来",
+      "first_appear_chapter": 1
+    },
+    {
+      "id": "gu-chengyuan",
+      "name": "顾承渊",
+      "role": "男主/隐世废太子",
+      "visual": {
+        "gender": "男",
+        "age_look": "约26",
+        "hair": "青冠，发色偏深，病弱感",
+        "face": "少血色，目光平如冰，笑意极淡",
+        "costume": "青袍，木杖，婚后仍拄杖；开战时杖裂出剑",
+        "anchor_words": "青袍瘸子, 木杖, 病弱脸, 三秒不跛"
+      },
+      "verbal_tic": "她的刀认不认亲，我认。",
+      "signature_move": "木杖顿地；开战跛消失三秒",
+      "motivation": "护她与城，不要椅",
+      "first_appear_chapter": 2
+    },
+    {
+      "id": "shen-zhaoxue",
+      "name": "沈昭雪",
+      "role": "反派/假千金/北狄细作",
+      "visual": {
+        "gender": "女",
+        "age_look": "约22",
+        "hair": "盛装凤冠或软红衣",
+        "face": "美而稳，哭时眼圈红、笑时嘴角不乱",
+        "costume": "耳下红绳坠狼牙云纹玉",
+        "anchor_words": "凤冠假笑, 红绳狼牙玉, 笑太稳"
+      },
+      "verbal_tic": "姐姐，别难为她/我。",
+      "signature_move": "袖中按玉；对角落点头下令",
+      "motivation": "嫁太子当城门钥匙",
+      "first_appear_chapter": 1
+    },
+    {
+      "id": "xiao-chengan",
+      "name": "萧承安",
+      "role": "工具反派/太子后废",
+      "visual": {
+        "gender": "男",
+        "age_look": "约25",
+        "hair": "太子冠，珠会抖",
+        "face": "生得贵，气量窄",
+        "costume": "朱金礼服",
+        "anchor_words": "太子冠, 珠抖, 护昭雪不护城"
+      },
+      "first_appear_chapter": 1
+    },
+    {
+      "id": "yelv-han",
+      "name": "耶律寒",
+      "role": "北狄王子/幕后",
+      "visual": {
+        "gender": "男",
+        "age_look": "约28",
+        "hair": "黑甲束发",
+        "face": "笑白，眼底有火",
+        "costume": "北狄黑甲，狼旗",
+        "anchor_words": "黑甲狼旗, 白笑, 城缺口"
+      },
+      "first_appear_chapter": 9
+    },
+    {
+      "id": "shen-lie",
+      "name": "沈烈",
+      "role": "镇国将军/女主之父",
+      "visual": {
+        "gender": "男",
+        "age_look": "约50",
+        "face": "刚毅，后段眼红手稳",
+        "costume": "将军甲或常服",
+        "anchor_words": "花白鬓, 将军令牌"
+      },
+      "first_appear_chapter": 2
+    },
+    {
+      "id": "taifuren",
+      "name": "沈太夫人",
+      "role": "势利后母",
+      "visual": {
+        "gender": "女",
+        "age_look": "约45",
+        "face": "妆厚，一急就尖声",
+        "costume": "华服金钗",
+        "anchor_words": "金钗华服, 尖声"
+      },
+      "first_appear_chapter": 1
+    },
+    {
+      "id": "xiao-douzi",
+      "name": "小豆子",
+      "role": "女主之女（中后段，非开场主卖）",
+      "visual": {
+        "gender": "女童",
+        "age_look": "约5",
+        "face": "像娘，认真",
+        "costume": "小甲边的布衣，会弹兵符",
+        "anchor_words": "女童, 军饼, 弹兵符"
+      },
+      "first_appear_chapter": 8,
+      "note": "黄金三集零出镜，避免与剑宗团宠撞车"
+    },
+    {
+      "id": "xiao-dao",
+      "name": "小刀",
+      "role": "女主之子（中后段）",
+      "visual": {
+        "gender": "男童",
+        "age_look": "约5",
+        "face": "拳头常攥着",
+        "costume": "布衣",
+        "anchor_words": "男童, 攥拳"
+      },
+      "verbal_tic": "谁欺我娘，我爹砍谁。",
+      "first_appear_chapter": 8
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "generated_by": "e4-episodes@1.0.0 | model: cursor-grok-4.6 | upstream: 03_outline/master-outline.md",
+  "ep_id": "002",
+  "goal": "坐实女帅战功，圣旨封侯并甩出『携夫』第二刀",
+  "beats": [
+    {"beat": 1, "summary": "太夫人喊反了，太子扣私兵谋反", "conflict_type": "诬陷", "emotion_value": 5},
+    {"beat": 2, "summary": "甲士摘面甲，火漆印+兵部军报署名沈昭宁", "conflict_type": "证据打脸", "emotion_value": 8},
+    {"beat": 3, "summary": "黄门宣旨：封镇北侯，携夫回朝", "conflict_type": "身份危机", "emotion_value": 9}
+  ],
+  "ending_hook": {
+    "type": "身份揭露",
+    "content": "满堂问夫君在哪；铁骑让路，一个青袍瘸子拄杖走出来",
+    "forbidden_repeat_window_ok": true
+  },
+  "bridge_to_next": "下一集当众认夫，把笑声卡死",
+  "golden_scene_refs": ["gs-002"],
+  "foreshadow_ops": [{"id": "fs-03", "op": "plant"}]
+}

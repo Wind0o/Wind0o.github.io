@@ -1,0 +1,22 @@
+{
+  "generated_by": "e4-episodes@1.0.0 | model: cursor-grok-4.6 | upstream: 03_outline/master-outline.md",
+  "ep_id": "003",
+  "goal": "瘸子出列被笑，女帅当众叫夫君，钉死双人记忆点",
+  "beats": [
+    {"beat": 1, "summary": "满堂笑瘸子，昭雪劝别笑实则更笑", "conflict_type": "嘲讽", "emotion_value": 6},
+    {"beat": 2, "summary": "她替他理衣领，当众叫夫君；他说刀认不认亲我认", "conflict_type": "反差打脸", "emotion_value": 9},
+    {"beat": 3, "summary": "他指认兵符朱砂是北狄王帐的；她提醒昭雪收好玉佩", "conflict_type": "暗线试探", "emotion_value": 8}
+  ],
+  "ending_hook": {
+    "type": "误会",
+    "content": "马车帘缝里，昭宁看见昭雪对着角落极轻点头，像在下令",
+    "forbidden_repeat_window_ok": true
+  },
+  "bridge_to_next": "夜宴将至，玉佩与酒盏都有毒",
+  "golden_scene_refs": ["gs-003"],
+  "foreshadow_ops": [
+    {"id": "fs-01", "op": "payoff", "note": "点头下令"},
+    {"id": "fs-03", "op": "payoff"},
+    {"id": "fs-04", "op": "plant", "note": "自称死人"}
+  ]
+}
