@@ -1,0 +1,13 @@
+{
+  "ep_id": "001",
+  "goal": "一集写清身份+困境+目标：穿书女配不喝毒酒，接住死亡工单",
+  "beats": [
+    {"beat": 1, "summary": "侯夫人递毒酒，慈祥得像原著旁白", "conflict_type": "危机", "emotion_value": 3},
+    {"beat": 2, "summary": "顾晚宁拒喝，工单倒计时，酒泼铜炉绿火", "conflict_type": "正面对抗", "emotion_value": 7},
+    {"beat": 3, "summary": "盖章接单；报真千金车队提前到", "conflict_type": "悬念", "emotion_value": 8}
+  ],
+  "ending_hook": {"type": "悬念", "content": "门缝里先进来白玉镯的光", "forbidden_repeat_window_ok": true},
+  "bridge_to_next": "真千金进门，对照组就位；大期待必须在第2集说清",
+  "golden_scene_refs": ["gs-dujiu"],
+  "foreshadow_ops": [{"id": "fs-lvhuo", "op": "plant"}]
+}

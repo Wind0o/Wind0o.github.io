@@ -1,0 +1,13 @@
+{
+  "ep_id": "002",
+  "goal": "大期待直说：结单、改虐结局、开茶馆；中门工伤与真千金挽留对撞",
+  "beats": [
+    {"beat": 1, "summary": "厢房确认大期待，关联工单要打断顾衡的腿", "conflict_type": "身份危机", "emotion_value": 4},
+    {"beat": 2, "summary": "沈皎月进门握手当众示善，顾晚宁只倒茶不喝酒", "conflict_type": "对照冲突", "emotion_value": 6},
+    {"beat": 3, "summary": "报修中门；女主说今夜只有花灯", "conflict_type": "误会", "emotion_value": 8}
+  ],
+  "ending_hook": {"type": "危机", "content": "花灯亮起，灯影里棍的轮廓也亮了", "forbidden_repeat_window_ok": true},
+  "bridge_to_next": "第二杯酒改头换面送到厢房",
+  "golden_scene_refs": ["gs-daocha"],
+  "foreshadow_ops": [{"id": "fs-huadeng", "op": "plant"}]
+}

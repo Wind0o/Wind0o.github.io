@@ -1,0 +1,24 @@
+# generated_by: e1-topic@1.1.0 | model: cursor-grok-4.6 | upstream_hash: n/a
+project_slug: kf-tiandao-kefu-2608
+title: 穿书后我成了天道客服
+long_title: 穿成女配当天，炮灰把虐点投诉到我工位上
+genre_pack: chuanshu-kefu
+style_pack: guoman-houtu
+template_versions:
+  e1: 1.1.0
+  e2: 1.1.0
+  e3: 1.1.0
+  e4: 1.1.0
+  e5: 1.1.0
+params:
+  total_episodes: 80
+  golden_episodes: 3
+  word_budget_per_ep: 650
+  shot_budget_per_ep: 22
+  target_duration_s: 90
+hot_rank_ref:
+  source: 红果热播榜 + 番茄原著开篇 + 红果《短剧编剧第一课》公开爆剧剧本
+  date: 2026-07-28 / 2026-08
+  note: 吃「穿书不干了 + 金手指章内兑现 + 炮灰改命」引擎；不写退婚铁骑，不写钥匙粮契
+status: draft-novel-plus-golden-3
+mainline: 客服主管顾晚宁穿成原著第3章被毒死的女配，绑定天道售后；每结一单炮灰工单改掉一个虐点。她想摸鱼下班，救下的全是隐藏大佬，原著女主要把剧情掰回去。
